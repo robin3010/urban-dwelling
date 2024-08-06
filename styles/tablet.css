@@ -1,0 +1,167 @@
+@media (min-width: 768px) {
+  .header-main {
+    height: 60px;
+    padding: 0 44px;
+  }
+
+  .search-container {
+    gap: 40px;
+    padding: 110px 44px 50px;
+  }
+
+  .search-title {
+    font-size: 32px;
+    line-height: 44.8px;
+  }
+
+  .search-content {
+    flex-wrap: wrap;
+    gap: 50px 40px;
+  }
+
+  .item-card {
+    width: 320px;
+    height: 565px;
+    border-radius: 20px;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .item-img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  .item-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    margin-bottom: 12px;
+  }
+
+  .item-price {
+    gap: 16px;
+    font-size: 22px;
+    line-height: 30.8px;
+  }
+
+  .item-price > .item-price__currency {
+    font-weight: inherit;
+  }
+
+  .item-price_discount > .item-price__currency {
+    font-weight: 600;
+  }
+
+  .item-price_outline {
+    font-size: 22px;
+    line-height: 30.8px;
+  }
+
+  .item-promo-badge {
+    width: 126px;
+    height: 38px;
+  }
+
+  .item-promo-badge__text {
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+
+  .item-details {
+    position: absolute;
+    top: 409px;
+    left: 31px;
+    width: 258px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #e45302;
+    color: #fff;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item-card:hover {
+    background-color: #f5f5f5;
+  }
+
+  .item-card:hover .item-details {
+    opacity: 1;
+  }
+
+  .item-card:hover .item-details:hover {
+    background-color: #f1600b;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .item-card:hover .item-details:active {
+    background-color: #fc701f;
+    transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .footer {
+    padding: 50px 44px;
+  }
+
+  .footer-info-container {
+    display: grid;
+    gap: 0;
+    grid-template-areas:
+      'logo logo logo'
+      'address contacts service'
+      'terms terms service'
+      'payments protection protection';
+  }
+
+  .footer-logo {
+    grid-area: logo;
+    padding-left: 0;
+    padding-bottom: 33.23px;
+  }
+
+  .footer-address {
+    grid-area: address;
+    width: 210px;
+    padding-left: 1px;
+  }
+
+  .footer-contacts {
+    grid-area: contacts;
+    width: 246px;
+    margin-left: 35px;
+    margin-right: 42px;
+  }
+
+  .footer-address,
+  .footer-contacts {
+    gap: 20px;
+  }
+
+  .footer-service {
+    grid-area: service;
+    width: 140px;
+  }
+
+  .footer-service-content {
+    gap: 30px;
+  }
+
+  .footer-terms {
+    grid-area: terms;
+    width: 242px;
+    margin-top: 37px;
+  }
+
+  .footer-payments {
+    grid-area: payments;
+    margin-top: 40px;
+  }
+
+  .footer-protection {
+    grid-area: protection;
+    width: 382px;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+}

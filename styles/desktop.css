@@ -1,0 +1,256 @@
+@media (min-width: 1600px) {
+  .header-bar {
+    height: 40px;
+    padding: 0 180px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 70px;
+    background-color: #231815;
+  }
+
+  .header-bar__content {
+    color: #fff;
+  }
+
+  .header-main {
+    height: 80px;
+    padding: 0 180px;
+  }
+
+  .header-logo {
+    margin-right: auto;
+    flex: 1;
+  }
+
+  .header-links {
+    display: flex;
+    gap: 100px;
+  }
+
+  .header-links__content {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .header-buttons {
+    margin-left: auto;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    gap: 23px;
+  }
+
+  .header-search {
+    display: none;
+  }
+
+  .header-search-btn {
+    width: 39px;
+    height: 39px;
+    background: #231815 url(/assets/icons/search-white.png) center no-repeat;
+    border-radius: 50%;
+  }
+
+  .header-basket {
+    width: 138px;
+    height: 39px;
+    border-radius: 100px;
+    background-color: #231815;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .header-basket-icon {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    background: url(/assets/icons/bag.png) center no-repeat;
+  }
+
+  .header-basket-icon::after {
+    content: '3';
+    position: absolute;
+    top: 1px;
+    right: -2px;
+    width: 18px;
+    height: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    line-height: 16.8px;
+
+    background-color: #fff;
+    color: #231815;
+    border-radius: 50%;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-logo,
+  .footer-logo {
+    height: auto;
+    width: 217px;
+  }
+
+  .search-container {
+    padding: 180px 180px 66px;
+  }
+
+  .search-title {
+    font-size: 40px;
+    line-height: 56px;
+  }
+
+  .search-content {
+    gap: 30px;
+  }
+
+  .item-card {
+    width: 287px;
+    height: 516px;
+  }
+
+  .footer {
+    padding: 60px 180px;
+    height: 320px;
+    box-sizing: border-box;
+  }
+
+  .footer-logo {
+    padding-top: 2px;
+    height: fit-content;
+  }
+
+  .footer-info-container {
+    grid-template-areas:
+      'logo address service terms'
+      'protection contacts service payments';
+  }
+
+  .footer-logo {
+    padding-bottom: 0;
+  }
+
+  .footer-contacts {
+    margin: 0;
+    margin-top: -8px;
+  }
+
+  .footer-service {
+    margin-left: 12px;
+  }
+
+  .footer-service-content {
+    gap: 20px;
+  }
+
+  .footer-terms {
+    margin-top: 0;
+    margin-left: auto;
+    align-items: end;
+  }
+
+  .footer-payments {
+    margin-top: 0;
+    justify-content: end;
+  }
+
+  .footer-protection {
+    width: 322px;
+    margin-left: 0;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 1920px) {
+  .header-bar {
+    padding: 0 260px;
+  }
+
+  .header-main {
+    padding: 0 260px;
+  }
+
+  .header-search {
+    position: relative;
+    display: block;
+    width: 170px;
+    height: 39px;
+    border: 1px solid #f5f5f5;
+    border-radius: 100px;
+  }
+
+  .header-search::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 39px;
+    height: 39px;
+    background: url(/assets/icons/search-normal.png) center no-repeat;
+    display: block;
+    cursor: pointer;
+  }
+
+  .header-search__input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 40px 0 25px;
+  }
+
+  .header-search:focus-visible {
+    outline: #c4c4c4 solid 1px;
+  }
+
+  .header-search__input:focus-visible {
+    outline: none;
+  }
+
+  .header-search-btn {
+    display: none;
+  }
+
+  .search-container {
+    padding: 180px 260px 60px;
+  }
+
+  .search-title {
+    font-size: 44px;
+    line-height: 61.6px;
+  }
+
+  .search-content {
+    gap: 50px 40px;
+  }
+
+  .item-card {
+    width: 320px;
+    height: 565px;
+  }
+
+  .footer {
+    padding: 60px 260px;
+  }
+
+  .footer-logo {
+    width: 239px;
+    padding-top: 1px;
+    height: fit-content;
+  }
+
+  .footer-address,
+  .footer-contacts {
+    margin-left: 12px;
+  }
+
+  .footer-service {
+    margin-left: 52px;
+  }
+}

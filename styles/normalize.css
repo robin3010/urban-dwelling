@@ -1,0 +1,40 @@
+:root,
+button,
+input {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #fff;
+  color: #231815;
+}
+
+@font-face {
+  font-family: Korataki;
+  src: url(/assets/fonts/korataki.otf);
+}
+
+body,
+button {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+a:active,
+button:active {
+  opacity: 0.6;
+  transition: opacity 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
