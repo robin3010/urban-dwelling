@@ -48,7 +48,7 @@
   .header-search-btn {
     width: 39px;
     height: 39px;
-    background: #231815 url(/assets/icons/search-white.png) center no-repeat;
+    background: #231815 url(../assets/icons/search-white.png) center no-repeat;
     border-radius: 50%;
   }
 
@@ -68,7 +68,7 @@
     position: relative;
     width: 33px;
     height: 33px;
-    background: url(/assets/icons/bag.png) center no-repeat;
+    background: url(../assets/icons/bag.png) center no-repeat;
   }
 
   .header-basket-icon::after {
@@ -192,7 +192,7 @@
     right: 0;
     width: 39px;
     height: 39px;
-    background: url(/assets/icons/search-normal.png) center no-repeat;
+    background: url(../assets/icons/search-normal.png) center no-repeat;
     display: block;
     cursor: pointer;
   }

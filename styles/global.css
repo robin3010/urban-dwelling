@@ -33,7 +33,7 @@
 }
 
 .header-menu {
-  background: url(/assets/icons/nav-menu.png) center no-repeat;
+  background: url(../assets/icons/nav-menu.png) center no-repeat;
   height: 40px;
   width: 40px;
 }

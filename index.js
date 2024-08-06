@@ -22,7 +22,7 @@ const getItemLayout = (item) => {
 
   return `
     <div class="item-card">
-      <img class="item-img" src="/assets/images/${id}.png"></img>
+      <img class="item-img" src="./assets/images/${id}.png"></img>
       <span class="item-title">${title}</span>
       <div class="item-price">
         ${discountPriceLayout}

@@ -11,7 +11,7 @@ input {
 
 @font-face {
   font-family: Korataki;
-  src: url(/assets/fonts/korataki.otf);
+  src: url(../assets/fonts/korataki.otf);
 }
 
 body,
