@@ -1,7 +1,11 @@
 @media (min-width: 1600px) {
+  .header-bar,
+  .header-main {
+    padding: 0 calc(180px - var(--scroll-width)) 0 180px;
+  }
+
   .header-bar {
     height: 40px;
-    padding: 0 180px;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -15,7 +19,6 @@
 
   .header-main {
     height: 80px;
-    padding: 0 180px;
   }
 
   .header-logo {
@@ -98,7 +101,7 @@
   }
 
   .search-container {
-    padding: 180px 180px 66px;
+    padding: 180px calc(180px - var(--scroll-width)) 66px 180px;
   }
 
   .search-title {
@@ -107,6 +110,7 @@
   }
 
   .search-content {
+    grid-template-columns: repeat(auto-fill, 287px);
     gap: 30px;
   }
 
@@ -116,7 +120,7 @@
   }
 
   .footer {
-    padding: 60px 180px;
+    padding: 60px calc(180px - var(--scroll-width)) 60px 180px;
     height: 320px;
     box-sizing: border-box;
   }
@@ -168,12 +172,9 @@
 }
 
 @media (min-width: 1920px) {
-  .header-bar {
-    padding: 0 260px;
-  }
-
+  .header-bar,
   .header-main {
-    padding: 0 260px;
+    padding: 0 calc(260px - var(--scroll-width)) 0 260px;
   }
 
   .header-search {
@@ -218,7 +219,7 @@
   }
 
   .search-container {
-    padding: 180px 260px 60px;
+    padding: 180px calc(260px - var(--scroll-width)) 60px 260px;
   }
 
   .search-title {
@@ -227,6 +228,7 @@
   }
 
   .search-content {
+    grid-template-columns: repeat(auto-fill, 320px);
     gap: 50px 40px;
   }
 
@@ -236,7 +238,7 @@
   }
 
   .footer {
-    padding: 60px 260px;
+    padding: 60px calc(260px - var(--scroll-width)) 60px 260px;
   }
 
   .footer-logo {

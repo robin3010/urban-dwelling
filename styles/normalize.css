@@ -9,6 +9,10 @@ input {
   color: #231815;
 }
 
+:root {
+  --scroll-width: calc(100vw - 100%);
+}
+
 @font-face {
   font-family: Korataki;
   src: url(../assets/fonts/korataki.otf);
